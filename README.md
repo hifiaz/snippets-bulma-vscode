@@ -1,4 +1,4 @@
-# bulma-snippets README
+# Bulma Snippets README
 
 This is the README for your extension "bulma-snippets". After writing up a brief description, we recommend including the following sections.
 

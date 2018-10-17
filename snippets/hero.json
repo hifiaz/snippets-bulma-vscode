@@ -1,0 +1,38 @@
+{
+  "Hero": {
+    "prefix": "bhero",
+    "body": [
+      "<section class=\"hero\">",
+      "<div class=\"hero-body\">",
+      "<div class=\"container\">",
+      "<h1 class=\"title\">",
+      "Hero title",
+      "</h1>",
+      "<h2 class=\"subtitle\">",
+      "Hero subtitle",
+      "</h2>",
+      "</div>",
+      "</div>",
+      "</section>"
+    ],
+    "description": "An imposing hero banner to showcase something"
+  },
+  "Hero Primary": {
+    "prefix": "bherop",
+    "body": [
+      "<section class=\"hero is-primary\">",
+      "<div class=\"hero-body\">",
+      "<div class=\"container\">",
+      "<h1 class=\"title\">",
+      "Primary title",
+      "</h1>",
+      "<h2 class=\"subtitle\">",
+      "Primary subtitle",
+      "</h2>",
+      "</div>",
+      "</div>",
+      "</section>"
+    ],
+    "description": "hero basic with primary color"
+  }
+}
