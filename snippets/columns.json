@@ -1,0 +1,93 @@
+{
+    "Columns":{
+        "prefix":"columns:b",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column\">\n    First column\n  </div>\n  <div class=\"column\">\n    Second column\n  </div>\n  <div class=\"column\">\n    Third column\n  </div>\n  <div class=\"column\">\n    Fourth column\n  </div>\n</div>"
+        ],
+        "description":"Columns basic of bulma"
+    },
+    "Columns Four Fifths":{
+        "prefix":"columns:b:fourfifths",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column is-four-fifths\">is-four-fifths</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description":"Columns Four Fifths"
+    },
+    "Columns Three Quarters":{
+        "prefix":"columns:b:threequarters",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column is-three-quarters\">is-three-quarters</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description":"Columns basic of bulma"
+    },
+    "Columns Two Thirds":{
+        "prefix":"columns:b:twothirds",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column is-two-thirds\">is-two-thirds</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description":"Columns Two Thirds"
+    },
+    "Columns Three Fifths":{
+        "prefix":"columns:b:threefifths",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column is-three-fifths\">is-three-fifths</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description":"Columns Three Fifths"
+    },
+    "Columns Half":{
+        "prefix":"columns:b:half",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column is-half\">is-half</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description":"Columns Half"
+    },
+    "Columns Two Fifths":{
+        "prefix":"columns:b:twofifths",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column is-two-fifths\">is-two-fifths</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description":"Columns Two Fifths"
+    },
+    "Columns One Third":{
+        "prefix":"columns:b:onethird",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column is-one-third\">is-one-third</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description":"Columns One Third"
+    },
+    "Columns One Quarter":{
+        "prefix":"columns:b:onequarter",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column is-one-quarter\">is-one-quarter</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description":"Columns One Quarter"
+    },
+    "Columns One Fifth":{
+        "prefix":"columns:b:onefifth",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column is-one-fifth\">is-one-fifth</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description":"Columns One Fifth"
+    },
+    "Columns Half Center":{
+        "prefix":"columns:b:halfcenter",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column is-half is-offset-one-quarter\">\n</div>\n</div>"
+        ],
+        "description":"Columns Half Center"
+    },
+    "Columns Three Center":{
+        "prefix":"columns:b:threecenter",
+        "body":[
+            "<div class=\"columns\">\n  <div class=\"column is-three-fifths is-offset-one-fifth\">\n</div>\n</div>"
+        ],
+        "description":"Columns Three Center"
+    },
+    "Columns Multiline":{
+        "prefix":"columns:b:multiline",
+        "body":[
+            "<div class=\"columns is-multiline is-mobile\">\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-half\">\n    <code>is-half</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column\">\n    Auto\n  </div>\n</div>\n"
+        ],
+        "description":"Columns Miltiline"
+    }
+}

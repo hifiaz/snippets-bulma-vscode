@@ -1,16 +1,9 @@
 {
   "footer": {
-    "prefix": "b-footer",
+    "prefix": "footer:b",
     "body": [
-      "<footer class=\"footer\">",
-      "<div class=\"content has-text-centered\">",
-      "<p>",
-      "<strong>Bulma</strong> by <a href=\"https://jgthms.com\"> Jeremy Thomas </a> . The source code is licensed",
-      "<a href=\"http://opensource.org/licenses/mit-license.php\">MIT </a>. The website content",
-      "is licensed <a href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">C BY NC SA 4.0</a>.",
-      "</p>",
-      "</div>",
-      "</footer>"
-    ]
+      "<footer class=\"footer\">\n  <div class=\"content has-text-centered\">\n    <p>\n      <strong>Bulma</strong> by <a href=\"https://jgthms.com\">Jeremy Thomas</a>. The source code is licensed\n      <a href=\"http://opensource.org/licenses/mit-license.php\">MIT</a>. The website content\n      is licensed <a href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY NC SA 4.0</a>.\n    </p>\n  </div>\n</footer>"
+    ],
+    "description": "Basic footer in bulma"
   }
 }

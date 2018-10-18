@@ -1,13 +1,13 @@
 {
     "Title":{
-        "prefix":"b-title",
+        "prefix":"title:b",
         "body":[
             "<h1 class=\"title\">Title</h1>"
         ],
         "description":"Title Component of bulma"
     },
     "Subtitle":{
-        "prefix":"b-subtitle",
+        "prefix":"subtitle:b",
         "body":[
             "<h2 class=\"subtitle\">Subtitle</h2>"
         ],
