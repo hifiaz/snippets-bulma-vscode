@@ -24,6 +24,18 @@
             {
                 "language": "html",
                 "path": "./snippets/hero.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/navbar.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/card.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/footer.json"
             }
         ]
     }
