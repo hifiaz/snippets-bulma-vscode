@@ -1,6 +1,6 @@
 {
   "Card": {
-    "prefix": "bcard",
+    "prefix": "b-card",
     "body": [
       "<div class=\"card\">",
       "<div class=\"card-image\">",
@@ -34,7 +34,7 @@
     "description": "Card component of bulma"
   },
   "Card Footer Heade and Footer": {
-    "prefix": "bcardf",
+    "prefix": "b-card-f",
     "body": [
       "<div class=\"card\">",
       "<header class=\"card-header\">",

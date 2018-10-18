@@ -1,6 +1,6 @@
 {
   "Hero": {
-    "prefix": "bhero",
+    "prefix": "b-hero",
     "body": [
       "<section class=\"hero\">",
       "<div class=\"hero-body\">",
@@ -18,7 +18,7 @@
     "description": "An imposing hero banner to showcase something"
   },
   "Hero Medium": {
-    "prefix": "bherom",
+    "prefix": "b-hero-m",
     "body": [
       "<section class=\"hero is-medium is-primary is-bold\">",
       "<div class=\"hero-body\">",
@@ -36,7 +36,7 @@
     "description": "Hero with size of medium"
   },
   "Hero Large": {
-    "prefix": "bherol",
+    "prefix": "b-hero-l",
     "body": [
       "<section class=\"hero is-info is-large\">",
       "<div class=\"hero-body\">",
@@ -54,7 +54,7 @@
     "description": "Hero with size of large"
   },
   "Hero Full Hight": {
-    "prefix": "bherofh",
+    "prefix": "b-hero-fh",
     "body": [
       "<section class=\"hero is-success is-fullheight\">",
       "<div class=\"hero-body\">",
@@ -72,7 +72,7 @@
     "description": "Hero with full size of hight"
   },
   "Hero with Navbar": {
-    "prefix": "bherownav",
+    "prefix": "b-hero-wnav",
     "body": [
       "<section class=\"hero is-info is-large\">",
       "<div class=\"hero-head\">",

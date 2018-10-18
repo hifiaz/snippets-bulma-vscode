@@ -1,6 +1,6 @@
 {
   "Bulma Started Template": {
-    "prefix": "bhtml",
+    "prefix": "b-html",
     "body": [
       "<!DOCTYPE html>",
       "<html>",
