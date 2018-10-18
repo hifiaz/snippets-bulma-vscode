@@ -1,7 +1,7 @@
 # Bulma Snippets
 
 Bulma Snippets is extension to make ease to build website refrence to bulma.io
-Complete documentation of bulma can see at (bulma.io)[https://bulma.io]
+Complete documentation of bulma can see at [bulma.io](https://bulma.io)
 
 ## Features
 
