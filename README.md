@@ -189,3 +189,7 @@ Update Components
 - box
 - button
 - image
+
+### 0.0.4
+
+Add support for PHP, Javascript, Typescript, Vue and JSX files

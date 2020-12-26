@@ -1,9 +1,0 @@
-{
-    "Icon":{
-        "prefix":"icon:b",
-        "body":[
-            "<span class=\"icon\">\n  <i class=\"fas fa-home\"></i>\n</span>"
-        ],
-        "description":"Basic of Icon"
-    }
-}

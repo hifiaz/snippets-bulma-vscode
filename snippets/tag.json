@@ -1,9 +1,0 @@
-{
-    "Tag Basic":{
-        "prefix":"tag:b",
-        "body":[
-            "<span class=\"tag\">\n  Tag label\n</span>"
-        ],
-        "description":"Basic of tag bulma"
-    }
-}

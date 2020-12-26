@@ -1,0 +1,471 @@
+{
+    "Box": {
+        "body": [
+            "<div className=\"box\">\n  <article className=\"media\">\n    <div className=\"media-left\">\n      <figure className=\"image is-64x64\">\n        <img src=\"https://bulma.io/images/placeholders/128x128.png\" alt=\"Image\">\n      </figure>\n    </div>\n    <div className=\"media-content\">\n      <div className=\"content\">\n        <p>\n          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>\n          <br>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.        </p>\n      </div>\n      <nav className=\"level is-mobile\">\n        <div className=\"level-left\">\n          <a className=\"level-item\" aria-label=\"reply\">\n            <span className=\"icon is-small\">\n              <i className=\"fas fa-reply\" aria-hidden=\"true\"></i>\n            </span>\n          </a>\n          <a className=\"level-item\" aria-label=\"retweet\">\n            <span className=\"icon is-small\">\n              <i className=\"fas fa-retweet\" aria-hidden=\"true\"></i>\n            </span>\n          </a>\n          <a className=\"level-item\" aria-label=\"like\">\n            <span className=\"icon is-small\">\n              <i className=\"fas fa-heart\" aria-hidden=\"true\"></i>\n            </span>\n          </a>\n        </div>\n      </nav>\n    </div>\n  </article>\n</div>\n"
+        ],
+        "description": "Box components of bulma",
+        "prefix": "box:b"
+    },
+    "Bulma Started Template": {
+        "body": [
+            "<!DOCTYPE html>\n<html>  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Hello Bulma!</title>\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css\">\n    <script defer src=\"https://use.fontawesome.com/releases/v5.3.1/js/all.js\"></script>\n  </head>\n  <body>\n  <section className=\"section\">\n    <div className=\"container\">\n      <h1 className=\"title\">\n        Hello World\n      </h1>\n      <p className=\"subtitle\">\n        My first website with <strong>Bulma</strong>!\n      </p>\n    </div>\n  </section>\n  </body>\n</html>"
+        ],
+        "description": "Starter Template Bulma",
+        "prefix": "html:b"
+    },
+    "Button": {
+        "body": [
+            "<a className=\"button\">Button</a>"
+        ],
+        "description": "Button Basic",
+        "prefix": "button:b"
+    },
+    "Button Addons": {
+        "body": [
+            "<div className=\"field has-addons\">\n  <p className=\"control\">\n    <a className=\"button\">\n      <span className=\"icon is-small\">\n        <i className=\"fas fa-align-left\"></i>\n      </span>\n      <span>Left</span>\n    </a>\n  </p>\n  <p className=\"control\">\n    <a className=\"button\">\n      <span className=\"icon is-small\">\n        <i className=\"fas fa-align-center\"></i>\n      </span>\n      <span>Center</span>\n    </a>\n  </p>\n  <p className=\"control\">\n    <a className=\"button\">\n      <span className=\"icon is-small\">\n        <i className=\"fas fa-align-right\"></i>\n      </span>\n      <span>Right</span>\n    </a>\n  </p>\n</div>\n"
+        ],
+        "description": "Button addons",
+        "prefix": "button:b:addons"
+    },
+    "Button Colors": {
+        "body": [
+            "<a className=\"button is-white\">White</a>\n<a className=\"button is-light\">Light</a>\n<a className=\"button is-dark\">Dark</a>\n<a className=\"button is-black\">Black</a>\n<a className=\"button is-text\">Text</a>\n<a className=\"button is-primary\">Primary</a>\n<a className=\"button is-link\">Link</a>\n<a className=\"button is-info\">Info</a>\n<a className=\"button is-success\">Success</a>\n<a className=\"button is-warning\">Warning</a>\n<a className=\"button is-danger\">Danger</a>\n"
+        ],
+        "description": "Button Colors",
+        "prefix": "button:b:color"
+    },
+    "Button Display": {
+        "body": [
+            "<a className=\"button is-small is-fullwidth\">Small</a>\n<a className=\"button is-fullwidth\">Normal</a>\n<a className=\"button is-medium is-fullwidth\">Medium</a>\n<a className=\"button is-large is-fullwidth\">Large</a>\n"
+        ],
+        "description": "Button with full display",
+        "prefix": "button:b:display"
+    },
+    "Button Group": {
+        "body": [
+            "<div className=\"field is-grouped\">\n  <p className=\"control\">\n    <a className=\"button is-link\">\n      Save changes\n    </a>\n  </p>\n  <p className=\"control\">\n    <a className=\"button\">\n      Cancel\n    </a>\n  </p>\n  <p className=\"control\">\n    <a className=\"button is-danger\">\n      Delete post\n    </a>\n  </p>\n</div>"
+        ],
+        "description": "Button Group",
+        "prefix": "button:b:group"
+    },
+    "Button Icon": {
+        "body": [
+            "<a className=\"button\">\n    <span className=\"icon\">\n      <i className=\"fab fa-github\"></i>\n    </span>\n    <span>GitHub</span>\n  </a>"
+        ],
+        "description": "Button With Icon Awesome",
+        "prefix": "button:b:icon"
+    },
+    "Button Outlined": {
+        "body": [
+            "<a className=\"button is-outlined\">Outlined</a>\n<a className=\"button is-primary is-outlined\">Outlined</a>\n<a className=\"button is-link is-outlined\">Outlined</a>\n<a className=\"button is-info is-outlined\">Outlined</a>\n<a className=\"button is-success is-outlined\">Outlined</a>\n<a className=\"button is-danger is-outlined\">Outlined</a>\n"
+        ],
+        "description": "Button Outlined",
+        "prefix": "button:b:outline"
+    },
+    "Button Rounded": {
+        "body": [
+            "<a className=\"button is-rounded\">Rounded</a>\n<a className=\"button is-primary is-rounded\">Rounded</a>\n<a className=\"button is-link is-rounded\">Rounded</a>\n<a className=\"button is-info is-rounded\">Rounded</a>\n<a className=\"button is-success is-rounded\">Rounded</a>\n<a className=\"button is-danger is-rounded\">Rounded</a>\n"
+        ],
+        "description": "Button Rounded",
+        "prefix": "button:b:rounded"
+    },
+    "Button Size": {
+        "body": [
+            "<a className=\"button is-small\">Small</a>\n<a className=\"button\">Normal</a>\n<a className=\"button is-medium\">Medium</a>\n<a className=\"button is-large\">Large</a>\n"
+        ],
+        "description": "Button Sizes",
+        "prefix": "button:b:size"
+    },
+    "Card": {
+        "body": [
+            "<div className=\"card\">\n  <div className=\"card-image\">\n    <figure className=\"image is-4by3\">\n      <img src=\"https://bulma.io/images/placeholders/1280x960.png\" alt=\"Placeholder image\">\n    </figure>\n  </div>\n  <div className=\"card-content\">\n    <div className=\"media\">\n      <div className=\"media-left\">\n        <figure className=\"image is-48x48\">\n          <img src=\"https://bulma.io/images/placeholders/96x96.png\" alt=\"Placeholder image\">\n        </figure>\n      </div>\n      <div className=\"media-content\">\n        <p className=\"title is-4\">John Smith</p>\n        <p className=\"subtitle is-6\">@johnsmith</p>\n      </div>\n    </div>\n\n    <div className=\"content\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit.      Phasellus nec iaculis mauris. <a>@bulmaio</a>\n.      <a href=\"#\">#css</a> <a href=\"#\">#responsive</a>\n      <br>\n      <time datetime=\"2016-1-1\">11:09 PM - 1 Jan 2016</time>\n    </div>\n  </div>\n</div>\n"
+        ],
+        "description": "Card component of bulma",
+        "prefix": "card:b"
+    },
+    "Card Footer Heade and Footer": {
+        "body": [
+            "<div className=\"card\">\n  <header className=\"card-header\">\n    <p className=\"card-header-title\">\n      Component    </p>\n    <a href=\"#\" className=\"card-header-icon\" aria-label=\"more options\">\n      <span className=\"icon\">\n        <i className=\"fas fa-angle-down\" aria-hidden=\"true\"></i>\n      </span>\n    </a>\n  </header>\n  <div className=\"card-content\">\n    <div className=\"content\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.      <a href=\"#\">@bulmaio</a>. <a href=\"#\">#css</a> <a href=\"#\">#responsive</a>\n      <br>\n      <time datetime=\"2016-1-1\">11:09 PM - 1 Jan 2016</time>\n    </div>\n  </div>\n  <footer className=\"card-footer\">\n    <a href=\"#\" className=\"card-footer-item\">Save</a>\n    <a href=\"#\" className=\"card-footer-item\">Edit</a>\n    <a href=\"#\" className=\"card-footer-item\">Delete</a>\n  </footer>\n</div>\n"
+        ],
+        "description": "Card with header and footer component",
+        "prefix": "card:b:full"
+    },
+    "Columns": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column\">\n    First column\n  </div>\n  <div className=\"column\">\n    Second column\n  </div>\n  <div className=\"column\">\n    Third column\n  </div>\n  <div className=\"column\">\n    Fourth column\n  </div>\n</div>"
+        ],
+        "description": "Columns basic of bulma",
+        "prefix": "columns:b"
+    },
+    "Columns Four Fifths": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column is-four-fifths\">is-four-fifths</div>\n  <div className=\"column\">Auto</div>\n  <div className=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns Four Fifths",
+        "prefix": "columns:b:fourfifths"
+    },
+    "Columns Half": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column is-half\">is-half</div>\n  <div className=\"column\">Auto</div>\n  <div className=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns Half",
+        "prefix": "columns:b:half"
+    },
+    "Columns Half Center": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column is-half is-offset-one-quarter\">\n</div>\n</div>"
+        ],
+        "description": "Columns Half Center",
+        "prefix": "columns:b:halfcenter"
+    },
+    "Columns Multiline": {
+        "body": [
+            "<div className=\"columns is-multiline is-mobile\">\n  <div className=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div className=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div className=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div className=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div className=\"column is-half\">\n    <code>is-half</code>\n  </div>\n  <div className=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div className=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div className=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div className=\"column\">\n    Auto\n  </div>\n</div>\n"
+        ],
+        "description": "Columns Miltiline",
+        "prefix": "columns:b:multiline"
+    },
+    "Columns One Fifth": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column is-one-fifth\">is-one-fifth</div>\n  <div className=\"column\">Auto</div>\n  <div className=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns One Fifth",
+        "prefix": "columns:b:onefifth"
+    },
+    "Columns One Quarter": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column is-one-quarter\">is-one-quarter</div>\n  <div className=\"column\">Auto</div>\n  <div className=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns One Quarter",
+        "prefix": "columns:b:onequarter"
+    },
+    "Columns One Third": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column is-one-third\">is-one-third</div>\n  <div className=\"column\">Auto</div>\n  <div className=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns One Third",
+        "prefix": "columns:b:onethird"
+    },
+    "Columns Three Center": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column is-three-fifths is-offset-one-fifth\">\n</div>\n</div>"
+        ],
+        "description": "Columns Three Center",
+        "prefix": "columns:b:threecenter"
+    },
+    "Columns Three Fifths": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column is-three-fifths\">is-three-fifths</div>\n  <div className=\"column\">Auto</div>\n  <div className=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns Three Fifths",
+        "prefix": "columns:b:threefifths"
+    },
+    "Columns Three Quarters": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column is-three-quarters\">is-three-quarters</div>\n  <div className=\"column\">Auto</div>\n  <div className=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns basic of bulma",
+        "prefix": "columns:b:threequarters"
+    },
+    "Columns Two Fifths": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column is-two-fifths\">is-two-fifths</div>\n  <div className=\"column\">Auto</div>\n  <div className=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns Two Fifths",
+        "prefix": "columns:b:twofifths"
+    },
+    "Columns Two Thirds": {
+        "body": [
+            "<div className=\"columns\">\n  <div className=\"column is-two-thirds\">is-two-thirds</div>\n  <div className=\"column\">Auto</div>\n  <div className=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns Two Thirds",
+        "prefix": "columns:b:twothirds"
+    },
+    "Container": {
+        "body": [
+            "<div className=\"container\">\n\n</div>"
+        ],
+        "description": "Container basic on bulma",
+        "prefix": "container:b"
+    },
+    "Container Fluid": {
+        "body": [
+            "<div className=\"container is-fluid\">\n\n</div>"
+        ],
+        "description": "Container fluid on bulma",
+        "prefix": "container:b:fluid"
+    },
+    "Container Full Width": {
+        "body": [
+            "<div className=\"container is-widescreen\">\n\n</div>"
+        ],
+        "description": "Container Full Widt on bulma",
+        "prefix": "container:b:wide"
+    },
+    "Container is-fullhd": {
+        "body": [
+            "<div className=\"container is-fullhd\">\n\n</div>"
+        ],
+        "description": "Container Full Widt on bulma",
+        "prefix": "container:b:fullhd"
+    },
+    "Content": {
+        "body": [
+            "<div className=\"content\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</div>"
+        ],
+        "Description": "Content Basic",
+        "prefix": "content:b"
+    },
+    "Content Large": {
+        "body": [
+            "<div className=\"content is-large\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</div>"
+        ],
+        "Description": "Content Large",
+        "prefix": "content:b:large"
+    },
+    "Content Medium": {
+        "body": [
+            "<div className=\"content is-medium\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</div>"
+        ],
+        "Description": "Content Medium",
+        "prefix": "content:b:medium"
+    },
+    "Content Small": {
+        "body": [
+            "<div className=\"content is-small\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</div>"
+        ],
+        "Description": "Content Small",
+        "prefix": "content:b:small"
+    },
+    "footer": {
+        "body": [
+            "<footer className=\"footer\">\n  <div className=\"content has-text-centered\">\n    <p>\n      <strong>Bulma</strong> by <a href=\"https://jgthms.com\">Jeremy Thomas</a>. The source code is licensed\n      <a href=\"http://opensource.org/licenses/mit-license.php\">MIT</a>. The website content\n      is licensed <a href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY NC SA 4.0</a>.\n    </p>\n  </div>\n</footer>"
+        ],
+        "description": "Basic footer in bulma",
+        "prefix": "footer:b"
+    },
+    "Form Checkbox": {
+        "body": [
+            "<label className=\"checkbox\">\n  <input type=\"checkbox\">\n  Remember me\n</label>"
+        ],
+        "description": "Form Checkbox",
+        "prefix": "checkbox:b"
+    },
+    "Form Dropdown": {
+        "body": [
+            "<div className=\"select\">\n  <select>\n    <option>Select dropdown</option>\n    <option>With options</option>\n  </select>\n</div>"
+        ],
+        "description": "Form Dropdown",
+        "prefix": "dropdown:b"
+    },
+    "Form file": {
+        "body": [
+            "<div className=\"file\">\n  <label className=\"file-label\">\n    <input className=\"file-input\" type=\"file\" name=\"resume\">\n    <span className=\"file-cta\">\n      <span className=\"file-icon\">\n        <i className=\"fas fa-upload\">\n</i>\n      </span>\n      <span className=\"file-label\">\n        Choose a file…\n      </span>\n    </span>\n  </label>\n</div>"
+        ],
+        "description": "Form File",
+        "prefix": "file:b"
+    },
+    "Form General": {
+        "body": [
+            "<div className=\"field\">\n  <label className=\"label\">\nName</label>\n  <div className=\"control\">\n    <input className=\"input\" type=\"text\" placeholder=\"Text input\">\n  </div>\n</div>\n\n<div className=\"field\">\n  <label className=\"label\">Username</label>\n  <div className=\"control has-icons-left has-icons-right\">\n    <input className=\"input is-success\" type=\"text\" placeholder=\"Text input\" value=\"bulma\">\n    <span className=\"icon is-small is-left\">\n      <i className=\"fas fa-user\"></i>\n    </span>\n    <span className=\"icon is-small is-right\">\n      <i className=\"fas fa-check\"></i>\n    </span>\n  </div>\n  <p className=\"help is-success\">This username is available</p>\n</div>\n\n<div className=\"field\">\n  <label className=\"label\">Email</label>\n  <div className=\"control has-icons-left has-icons-right\">\n    <input className=\"input is-danger\" type=\"email\" placeholder=\"Email input\" value=\"hello@\">\n    <span className=\"icon is-small is-left\">\n      <i className=\"fas fa-envelope\"></i>\n    </span>\n    <span className=\"icon is-small is-right\">\n      <i className=\"fas fa-exclamation-triangle\"></i>\n    </span>\n  </div>\n  <p className=\"help is-danger\">This email is invalid</p>\n</div>\n\n<div className=\"field\">\n  <label className=\"label\">Subject</label>\n  <div className=\"control\">\n    <div className=\"select\">\n      <select>\n        <option>Select dropdown</option>\n        <option>With options</option>\n      </select>\n    </div>\n  </div>\n</div>\n\n<div className=\"field\">\n  <label className=\"label\">Message</label>\n  <div className=\"control\">\n    <textarea className=\"textarea\" placeholder=\"Textarea\"></textarea>\n  </div>\n</div>\n\n<div className=\"field\">\n  <div className=\"control\">\n    <label className=\"checkbox\">\n      <input type=\"checkbox\">\n      I agree to the <a href=\"#\">terms and conditions</a>\n    </label>\n  </div>\n</div>\n\n<div className=\"field\">\n  <div className=\"control\">\n    <label className=\"radio\">\n      <input type=\"radio\" name=\"question\">\n      Yes\n    </label>\n    <label className=\"radio\">\n      <input type=\"radio\" name=\"question\">\n      No\n    </label>\n  </div>\n</div>\n\n<div className=\"field is-grouped\">\n  <div className=\"control\">\n    <button className=\"button is-link\">Submit</button>\n  </div>\n  <div className=\"control\">\n    <button className=\"button is-text\">Cancel</button>\n  </div>\n</div>\n"
+        ],
+        "description": "General form input",
+        "prefix": "form:b"
+    },
+    "Form Input": {
+        "body": [
+            "<input className=\"input\" type=\"text\" placeholder=\"Text input\">"
+        ],
+        "description": "Form Input",
+        "prefix": "input:b"
+    },
+    "Form Radio": {
+        "body": [
+            "<div className=\"control\">\n  <label className=\"radio\">\n    <input type=\"radio\" name=\"answer\">\n    Yes\n  </label>\n  <label className=\"radio\">\n    <input type=\"radio\" name=\"answer\">\n    No\n  </label>\n</div>\n"
+        ],
+        "description": "Form Radio",
+        "prefix": "radio:b"
+    },
+    "Form Textarea": {
+        "body": [
+            "<textarea className=\"textarea\" placeholder=\"e.g. Hello world\"></textarea>"
+        ],
+        "description": "Form Textarea",
+        "prefix": "textarea:b"
+    },
+    "Hero": {
+        "body": [
+            "<section className=\"hero\">\n  <div className=\"hero-body\">\n    <div className=\"container\">\n      <h1 className=\"title\">\n        Hero title\n      </h1>\n      <h2 className=\"subtitle\">\n        Hero subtitle\n      </h2>\n    </div>\n  </div>\n</section>"
+        ],
+        "description": "An imposing hero banner to showcase something",
+        "prefix": "hero:b"
+    },
+    "Hero Full Hight": {
+        "body": [
+            "<section className=\"hero is-success is-fullheight\">\n  <div className=\"hero-body\">\n    <div className=\"container\">\n      <h1 className=\"title\">\n        Fullheight title\n      </h1>\n      <h2 className=\"subtitle\">\n        Fullheight subtitle\n      </h2>\n    </div>\n  </div>\n</section>"
+        ],
+        "description": "Hero with full size of hight",
+        "prefix": "hero:b:full"
+    },
+    "Hero Large": {
+        "body": [
+            "<section className=\"hero is-info is-large\">\n  <div className=\"hero-body\">\n    <div className=\"container\">\n      <h1 className=\"title\">\n        Large title\n      </h1>\n      <h2 className=\"subtitle\">\n        Large subtitle\n      </h2>\n    </div>\n  </div>\n</section>"
+        ],
+        "description": "Hero with size of large",
+        "prefix": "hero:b:large"
+    },
+    "Hero Medium": {
+        "body": [
+            "<section className=\"hero is-primary is-medium\">\n  <div className=\"hero-body\">\n    <div className=\"container\">\n      <h1 className=\"title\">\n        Medium title\n      </h1>\n      <h2 className=\"subtitle\">\n        Medium subtitle\n      </h2>\n    </div>\n  </div>\n</section>"
+        ],
+        "description": "Hero with size of medium",
+        "prefix": "hero:b:medium"
+    },
+    "Hero with Navbar": {
+        "body": [
+            "<section className=\"hero is-info is-large\">\n  <div className=\"hero-head\">\n    <nav className=\"navbar\">\n      <div className=\"container\">\n        <div className=\"navbar-brand\">\n          <a className=\"navbar-item\">\n            <img src=\"https://bulma.io/images/bulma-type-white.png\" alt=\"Logo\">\n          </a>\n          <span className=\"navbar-burger burger\" data-target=\"navbarMenuHeroB\">\n            <span></span>\n            <span></span>\n            <span></span>\n          </span>\n        </div>\n        <div id=\"navbarMenuHeroB\" className=\"navbar-menu\">\n          <div className=\"navbar-end\">\n            <a className=\"navbar-item is-active\">\n              Home\n            </a>\n            <a className=\"navbar-item\">\n              Examples\n            </a>\n            <a className=\"navbar-item\">\n              Documentation\n            </a>\n            <span className=\"navbar-item\">\n              <a className=\"button is-info is-inverted\">\n                <span className=\"icon\">\n                  <i className=\"fab fa-github\"></i>\n                </span>\n                <span>Download</span>\n              </a>\n            </span>\n          </div>\n        </div>\n      </div>\n    </nav>\n  </div>\n\n  <div className=\"hero-body\">\n    <div className=\"container has-text-centered\">\n      <p className=\"title\">\n        Title\n      </p>\n      <p className=\"subtitle\">\n        Subtitle\n      </p>\n    </div>\n  </div>\n\n  <div className=\"hero-foot\">\n    <nav className=\"tabs is-boxed is-fullwidth\">\n      <div className=\"container\">\n        <ul>\n          <li className=\"is-active\">\n            <a>Overview</a>\n          </li>\n          <li>\n            <a>Modifiers</a>\n          </li>\n          <li>\n            <a>Grid</a>\n          </li>\n          <li>\n            <a>Elements</a>\n          </li>\n          <li>\n            <a>Components</a>\n          </li>\n          <li>\n            <a>Layout</a>\n          </li>\n        </ul>\n      </div>\n    </nav>\n  </div>\n</section>"
+        ],
+        "description": "Hero large with navbar on header and footer",
+        "prefix": "hero:b:nav"
+    },
+    "Icon": {
+        "body": [
+            "<span className=\"icon\">\n  <i className=\"fas fa-home\"></i>\n</span>"
+        ],
+        "description": "Basic of Icon",
+        "prefix": "icon:b"
+    },
+    "Image 1by1": {
+        "body": [
+            "<figure className=\"image is-1by1 is-480x480\">\n  <img src=\"https://bulma.io/images/placeholders/480x480.png\">\n</figure>"
+        ],
+        "description": "Image 1by1",
+        "prefix": "image:b:1by1"
+    },
+    "Image 2by1": {
+        "body": [
+            "<figure className=\"image is-2by1 is-640x320\">\n  <img src=\"https://bulma.io/images/placeholders/640x320.png\">\n</figure>"
+        ],
+        "description": "Image 2by1",
+        "prefix": "image:b:2by1"
+    },
+    "Image 3by1": {
+        "body": [
+            "<figure className=\"image is-3by1 is-720x240\">\n  <img src=\"https://bulma.io/images/placeholders/720x240.png\">\n</figure>"
+        ],
+        "description": "Image 3by1",
+        "prefix": "image:b:3by1"
+    },
+    "Image 3by2": {
+        "body": [
+            "<figure className=\"image is-3by2 is-480x320\">\n  <img src=\"https://bulma.io/images/placeholders/480x320.png\">\n</figure>"
+        ],
+        "description": "Image 3by2",
+        "prefix": "image:b:3by2"
+    },
+    "Image 4by3": {
+        "body": [
+            "<figure className=\"image is-4by3 is-640x480\">\n  <img src=\"https://bulma.io/images/placeholders/640x480.png\">\n</figure>"
+        ],
+        "description": "Image 4by3",
+        "prefix": "image:b:4by3"
+    },
+    "Image 4by5": {
+        "body": [
+            "<figure className=\"image is-4by5 is-480x600\">\n  <img src=\"https://bulma.io/images/placeholders/480x600.png\">\n</figure>"
+        ],
+        "description": "Image 4by5",
+        "prefix": "image:b:4by5"
+    },
+    "Image 5by3": {
+        "body": [
+            "<figure className=\"image is-5by3 is-800x480\">\n  <img src=\"https://bulma.io/images/placeholders/800x480.png\">\n</figure>"
+        ],
+        "description": "Image 5by3",
+        "prefix": "image:b:5by3"
+    },
+    "Image 5by4": {
+        "body": [
+            "<figure className=\"image is-5by4 is-600x480\">\n  <img src=\"https://bulma.io/images/placeholders/600x480.png\">\n</figure>"
+        ],
+        "description": "Image 5by4",
+        "prefix": "image:b:5by4"
+    },
+    "Image 16by9": {
+        "body": [
+            "<figure className=\"image is-16by9 is-640x360\">\n  <img src=\"https://bulma.io/images/placeholders/640x360.png\">\n</figure>"
+        ],
+        "description": "Image 16by9",
+        "prefix": "image:b:16by9"
+    },
+    "Image Square": {
+        "body": [
+            "<figure className=\"image is-square is-480x480\">\n  <img src=\"https://bulma.io/images/placeholders/480x480.png\">\n</figure>"
+        ],
+        "description": "Image square",
+        "prefix": "image:b:square"
+    },
+    "Navbar": {
+        "body": [
+            "<nav className=\"navbar\" role=\"navigation\" aria-label=\"main navigation\">\n  <div className=\"navbar-brand\">\n    <a className=\"navbar-item\" href=\"https://bulma.io\">\n      <img src=\"https://bulma.io/images/bulma-logo.png\" width=\"112\" height=\"28\">\n    </a>\n\n    <a role=\"button\" className=\"navbar-burger burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">\n      <span aria-hidden=\"true\"></span>\n      <span aria-hidden=\"true\"></span>\n      <span aria-hidden=\"true\"></span>\n    </a>\n  </div>\n\n  <div id=\"navbarBasicExample\" className=\"navbar-menu\">\n    <div className=\"navbar-start\">\n      <a className=\"navbar-item\">\n        Home\n      </a>\n\n      <a className=\"navbar-item\">\n        Documentation\n      </a>\n\n      <div className=\"navbar-item has-dropdown is-hoverable\">\n        <a className=\"navbar-link\">\n          More\n        </a>\n\n        <div className=\"navbar-dropdown\">\n          <a className=\"navbar-item\">\n            About\n          </a>\n          <a className=\"navbar-item\">\n            Jobs\n          </a>\n          <a className=\"navbar-item\">\n            Contact\n          </a>\n          <hr className=\"navbar-divider\">\n          <a className=\"navbar-item\">\n            Report an issue\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <div className=\"navbar-end\">\n      <div className=\"navbar-item\">\n        <div className=\"buttons\">\n          <a className=\"button is-primary\">\n            <strong>Sign up</strong>\n          </a>\n          <a className=\"button is-light\">\n            Log in\n          </a>\n        </div>\n      </div>\n    </div>\n  </div>\n</nav>"
+        ],
+        "description": "Basic navbar bulma",
+        "prefix": "navbar:b"
+    },
+    "Notification": {
+        "body": [
+            "<div className=\"notification\">\n  <button className=\"delete\"></button>\n  Lorem ipsum dolor sit amet, consectetur\n  adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Sit amet,\n  consectetur adipiscing elit\n</div>"
+        ],
+        "description": "Notification components",
+        "prefix": "notif:b"
+    },
+    "Pagination": {
+        "body": [
+            "<nav className=\"pagination\" role=\"navigation\" aria-label=\"pagination\">\n  <a className=\"pagination-previous\">Previous</a>\n  <a className=\"pagination-next\">Next page</a>\n  <ul className=\"pagination-list\">\n    <li>\n      <a className=\"pagination-link\" aria-label=\"Goto page 1\">1</a>\n    </li>\n    <li>\n      <span className=\"pagination-ellipsis\">&hellip;</span>\n    </li>\n    <li>\n      <a className=\"pagination-link\" aria-label=\"Goto page 45\">45</a>\n    </li>\n    <li>\n      <a className=\"pagination-link is-current\" aria-label=\"Page 46\" aria-current=\"page\">46</a>\n    </li>\n    <li>\n      <a className=\"pagination-link\" aria-label=\"Goto page 47\">47</a>\n    </li>\n    <li>\n      <span className=\"pagination-ellipsis\">&hellip;</span>\n    </li>\n    <li>\n      <a className=\"pagination-link\" aria-label=\"Goto page 86\">86</a>\n    </li>\n  </ul>\n</nav>\n"
+        ],
+        "description": "Basic of pagination",
+        "prefix": "pag:b"
+    },
+    "Pagination Center": {
+        "body": [
+            "<nav className=\"pagination is-centered\" role=\"navigation\" aria-label=\"pagination\">\n  <a className=\"pagination-previous\">Previous</a>\n  <a className=\"pagination-next\">Next page</a>\n  <ul className=\"pagination-list\">\n    <li><a className=\"pagination-link\" aria-label=\"Goto page 1\">1</a></li>\n    <li><span className=\"pagination-ellipsis\">&hellip;</span></li>\n    <li><a className=\"pagination-link\" aria-label=\"Goto page 45\">45</a></li>\n    <li><a className=\"pagination-link is-current\" aria-label=\"Page 46\" aria-current=\"page\">46</a></li>\n    <li><a className=\"pagination-link\" aria-label=\"Goto page 47\">47</a></li>\n    <li><span className=\"pagination-ellipsis\">&hellip;</span></li>\n    <li><a className=\"pagination-link\" aria-label=\"Goto page 86\">86</a></li>\n  </ul>\n</nav>\n"
+        ],
+        "descrtiption": "Pagination with number in center",
+        "prefix": "pag:b:center"
+    },
+    "Pagination Rounded": {
+        "body": [
+            "<nav className=\"pagination is-rounded\" role=\"navigation\" aria-label=\"pagination\">\n  <a className=\"pagination-previous\">Previous</a>\n  <a className=\"pagination-next\">Next page</a>\n  <ul className=\"pagination-list\">\n    <li><a className=\"pagination-link\" aria-label=\"Goto page 1\">1</a></li>\n    <li><span className=\"pagination-ellipsis\">&hellip;</span></li>\n    <li><a className=\"pagination-link\" aria-label=\"Goto page 45\">45</a></li>\n    <li><a className=\"pagination-link is-current\" aria-label=\"Page 46\" aria-current=\"page\">46</a></li>\n    <li><a className=\"pagination-link\" aria-label=\"Goto page 47\">47</a></li>\n    <li><span className=\"pagination-ellipsis\">&hellip;</span></li>\n    <li><a className=\"pagination-link\" aria-label=\"Goto page 86\">86</a></li>\n  </ul>\n</nav>"
+        ],
+        "descrtiption": "Pagination Rounded Style",
+        "prefix": "pag:b:rounded"
+    },
+    "Subtitle": {
+        "body": [
+            "<h2 className=\"subtitle\">Subtitle</h2>"
+        ],
+        "description": "Substile component of bulma",
+        "prefix": "subtitle:b"
+    },
+    "Table": {
+        "body": [
+            "<table className=\"table\">\n  <thead>\n    <tr>\n      <th><abbr title=\"Position\">Pos</abbr></th>\n      <th>Team</th>\n      <th><abbr title=\"Played\">Pld</abbr></th>\n      <th><abbr title=\"Won\">W</abbr></th>\n      <th>Qualification or relegation</th>\n    </tr>\n  </thead>\n  <tfoot>\n    <tr>\n      <th><abbr title=\"Position\">Pos</abbr></th>\n      <th>Team</th>\n      <th><abbr title=\"Played\">Pld</abbr></th>\n      <th><abbr title=\"Won\">W</abbr></th>\n      <th>Qualification or relegation</th>\n    </tr>\n  </tfoot>\n  <tbody>\n    <tr>\n      <th>1</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Leicester_City_F.C.\" title=\"Leicester City F.C.\">Leicester City</a> <strong>(C)</strong>\n      </td>\n      <td>38</td>\n            <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Arsenal_F.C.\" title=\"Arsenal F.C.\">Arsenal</a></td>\n      <td>38</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.\" title=\"Tottenham Hotspur F.C.\">Tottenham Hotspur</a></td>\n      <td>38</td>\n      <td>19</td>\n      <td>13</td>\n      <td>6</td>\n      <td>69</td>\n      <td>35</td>\n      <td>+34</td>\n      <td>70</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\n    </tr>\n    <tr className=\"is-selected\">\n      <th>4</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Manchester_City_F.C.\" title=\"Manchester City F.C.\">Manchester City</a></td>\n      <td>38</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Play-off_round\" title=\"2016–17 UEFA Champions League\">Champions League play-off round</a></td>\n    </tr>\n    <tr>\n      <th>5</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Manchester_United_F.C.\" title=\"Manchester United F.C.\">Manchester United</a></td>\n      <td>38</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League#Group_stage\" title=\"2016–17 UEFA Europa League\">Europa League group stage</a></td>\n    </tr>\n  </tbody>\n</table>\n"
+        ],
+        "Description": "Basic of table bulma",
+        "prefix": "table:b"
+    },
+    "Tag Basic": {
+        "body": [
+            "<span className=\"tag\">\n  Tag label\n</span>"
+        ],
+        "description": "Basic of tag bulma",
+        "prefix": "tag:b"
+    },
+    "Title": {
+        "body": [
+            "<h1 className=\"title\">Title</h1>"
+        ],
+        "description": "Title Component of bulma",
+        "prefix": "title:b"
+    }
+}
