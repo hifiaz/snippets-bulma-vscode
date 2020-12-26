@@ -1,9 +1,0 @@
-{
-    "Box":{
-        "prefix":"box:b",
-        "body":[
-            "<div class=\"box\">\n  <article class=\"media\">\n    <div class=\"media-left\">\n      <figure class=\"image is-64x64\">\n        <img src=\"https://bulma.io/images/placeholders/128x128.png\" alt=\"Image\">\n      </figure>\n    </div>\n    <div class=\"media-content\">\n      <div class=\"content\">\n        <p>\n          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>\n          <br>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.        </p>\n      </div>\n      <nav class=\"level is-mobile\">\n        <div class=\"level-left\">\n          <a class=\"level-item\" aria-label=\"reply\">\n            <span class=\"icon is-small\">\n              <i class=\"fas fa-reply\" aria-hidden=\"true\"></i>\n            </span>\n          </a>\n          <a class=\"level-item\" aria-label=\"retweet\">\n            <span class=\"icon is-small\">\n              <i class=\"fas fa-retweet\" aria-hidden=\"true\"></i>\n            </span>\n          </a>\n          <a class=\"level-item\" aria-label=\"like\">\n            <span class=\"icon is-small\">\n              <i class=\"fas fa-heart\" aria-hidden=\"true\"></i>\n            </span>\n          </a>\n        </div>\n      </nav>\n    </div>\n  </article>\n</div>\n"
-        ],
-        "description":"Box components of bulma"
-    }
-}

@@ -2,8 +2,9 @@
     "name": "bulma-snippets",
     "displayName": "Bulma Snippets",
     "description": "Quick shortcut for all components on bulma",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "fiazluthfi",
+    "contributors": ["fiazluthfi","alexandre-eliot"],
     "icon": "icon.png",
     "repository": {
         "type": "git",
@@ -19,75 +20,35 @@
         "snippets": [
             {
                 "language": "html",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/html.json"
             },
             {
-                "language": "html",
-                "path": "./snippets/hero.json"
+                "language": "php",
+                "path": "./snippets/html.json"
             },
             {
-                "language": "html",
-                "path": "./snippets/navbar.json"
+                "language": "vue",
+                "path": "./snippets/html.json"
             },
             {
-                "language": "html",
-                "path": "./snippets/card.json"
+                "language": "vue-html",
+                "path": "./snippets/html.json"
             },
             {
-                "language": "html",
-                "path": "./snippets/footer.json"
+                "language": "javascript",
+                "path": "./snippets/html.json"
             },
             {
-                "language": "html",
-                "path": "./snippets/title.json"
+                "language": "typescript",
+                "path": "./snippets/html.json"
             },
             {
-                "language": "html",
-                "path": "./snippets/box.json"
+                "language": "javascriptreact",
+                "path": "./snippets/jsx.json"
             },
             {
-                "language": "html",
-                "path": "./snippets/button.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/content.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/image.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/notification.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/icon.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/tag.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/table.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/navigation.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/container.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/columns.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/form.json"
+                "language": "typescriptreact",
+                "path": "./snippets/jsx.json"
             }
         ]
     }

@@ -1,0 +1,471 @@
+{
+    "Box": {
+        "body": [
+            "<div class=\"box\">\n  <article class=\"media\">\n    <div class=\"media-left\">\n      <figure class=\"image is-64x64\">\n        <img src=\"https://bulma.io/images/placeholders/128x128.png\" alt=\"Image\">\n      </figure>\n    </div>\n    <div class=\"media-content\">\n      <div class=\"content\">\n        <p>\n          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>\n          <br>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.        </p>\n      </div>\n      <nav class=\"level is-mobile\">\n        <div class=\"level-left\">\n          <a class=\"level-item\" aria-label=\"reply\">\n            <span class=\"icon is-small\">\n              <i class=\"fas fa-reply\" aria-hidden=\"true\"></i>\n            </span>\n          </a>\n          <a class=\"level-item\" aria-label=\"retweet\">\n            <span class=\"icon is-small\">\n              <i class=\"fas fa-retweet\" aria-hidden=\"true\"></i>\n            </span>\n          </a>\n          <a class=\"level-item\" aria-label=\"like\">\n            <span class=\"icon is-small\">\n              <i class=\"fas fa-heart\" aria-hidden=\"true\"></i>\n            </span>\n          </a>\n        </div>\n      </nav>\n    </div>\n  </article>\n</div>\n"
+        ],
+        "description": "Box components of bulma",
+        "prefix": "box:b"
+    },
+    "Bulma Started Template": {
+        "body": [
+            "<!DOCTYPE html>\n<html>  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Hello Bulma!</title>\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css\">\n    <script defer src=\"https://use.fontawesome.com/releases/v5.3.1/js/all.js\"></script>\n  </head>\n  <body>\n  <section class=\"section\">\n    <div class=\"container\">\n      <h1 class=\"title\">\n        Hello World\n      </h1>\n      <p class=\"subtitle\">\n        My first website with <strong>Bulma</strong>!\n      </p>\n    </div>\n  </section>\n  </body>\n</html>"
+        ],
+        "description": "Starter Template Bulma",
+        "prefix": "html:b"
+    },
+    "Button": {
+        "body": [
+            "<a class=\"button\">Button</a>"
+        ],
+        "description": "Button Basic",
+        "prefix": "button:b"
+    },
+    "Button Addons": {
+        "body": [
+            "<div class=\"field has-addons\">\n  <p class=\"control\">\n    <a class=\"button\">\n      <span class=\"icon is-small\">\n        <i class=\"fas fa-align-left\"></i>\n      </span>\n      <span>Left</span>\n    </a>\n  </p>\n  <p class=\"control\">\n    <a class=\"button\">\n      <span class=\"icon is-small\">\n        <i class=\"fas fa-align-center\"></i>\n      </span>\n      <span>Center</span>\n    </a>\n  </p>\n  <p class=\"control\">\n    <a class=\"button\">\n      <span class=\"icon is-small\">\n        <i class=\"fas fa-align-right\"></i>\n      </span>\n      <span>Right</span>\n    </a>\n  </p>\n</div>\n"
+        ],
+        "description": "Button addons",
+        "prefix": "button:b:addons"
+    },
+    "Button Colors": {
+        "body": [
+            "<a class=\"button is-white\">White</a>\n<a class=\"button is-light\">Light</a>\n<a class=\"button is-dark\">Dark</a>\n<a class=\"button is-black\">Black</a>\n<a class=\"button is-text\">Text</a>\n<a class=\"button is-primary\">Primary</a>\n<a class=\"button is-link\">Link</a>\n<a class=\"button is-info\">Info</a>\n<a class=\"button is-success\">Success</a>\n<a class=\"button is-warning\">Warning</a>\n<a class=\"button is-danger\">Danger</a>\n"
+        ],
+        "description": "Button Colors",
+        "prefix": "button:b:color"
+    },
+    "Button Display": {
+        "body": [
+            "<a class=\"button is-small is-fullwidth\">Small</a>\n<a class=\"button is-fullwidth\">Normal</a>\n<a class=\"button is-medium is-fullwidth\">Medium</a>\n<a class=\"button is-large is-fullwidth\">Large</a>\n"
+        ],
+        "description": "Button with full display",
+        "prefix": "button:b:display"
+    },
+    "Button Group": {
+        "body": [
+            "<div class=\"field is-grouped\">\n  <p class=\"control\">\n    <a class=\"button is-link\">\n      Save changes\n    </a>\n  </p>\n  <p class=\"control\">\n    <a class=\"button\">\n      Cancel\n    </a>\n  </p>\n  <p class=\"control\">\n    <a class=\"button is-danger\">\n      Delete post\n    </a>\n  </p>\n</div>"
+        ],
+        "description": "Button Group",
+        "prefix": "button:b:group"
+    },
+    "Button Icon": {
+        "body": [
+            "<a class=\"button\">\n    <span class=\"icon\">\n      <i class=\"fab fa-github\"></i>\n    </span>\n    <span>GitHub</span>\n  </a>"
+        ],
+        "description": "Button With Icon Awesome",
+        "prefix": "button:b:icon"
+    },
+    "Button Outlined": {
+        "body": [
+            "<a class=\"button is-outlined\">Outlined</a>\n<a class=\"button is-primary is-outlined\">Outlined</a>\n<a class=\"button is-link is-outlined\">Outlined</a>\n<a class=\"button is-info is-outlined\">Outlined</a>\n<a class=\"button is-success is-outlined\">Outlined</a>\n<a class=\"button is-danger is-outlined\">Outlined</a>\n"
+        ],
+        "description": "Button Outlined",
+        "prefix": "button:b:outline"
+    },
+    "Button Rounded": {
+        "body": [
+            "<a class=\"button is-rounded\">Rounded</a>\n<a class=\"button is-primary is-rounded\">Rounded</a>\n<a class=\"button is-link is-rounded\">Rounded</a>\n<a class=\"button is-info is-rounded\">Rounded</a>\n<a class=\"button is-success is-rounded\">Rounded</a>\n<a class=\"button is-danger is-rounded\">Rounded</a>\n"
+        ],
+        "description": "Button Rounded",
+        "prefix": "button:b:rounded"
+    },
+    "Button Size": {
+        "body": [
+            "<a class=\"button is-small\">Small</a>\n<a class=\"button\">Normal</a>\n<a class=\"button is-medium\">Medium</a>\n<a class=\"button is-large\">Large</a>\n"
+        ],
+        "description": "Button Sizes",
+        "prefix": "button:b:size"
+    },
+    "Card": {
+        "body": [
+            "<div class=\"card\">\n  <div class=\"card-image\">\n    <figure class=\"image is-4by3\">\n      <img src=\"https://bulma.io/images/placeholders/1280x960.png\" alt=\"Placeholder image\">\n    </figure>\n  </div>\n  <div class=\"card-content\">\n    <div class=\"media\">\n      <div class=\"media-left\">\n        <figure class=\"image is-48x48\">\n          <img src=\"https://bulma.io/images/placeholders/96x96.png\" alt=\"Placeholder image\">\n        </figure>\n      </div>\n      <div class=\"media-content\">\n        <p class=\"title is-4\">John Smith</p>\n        <p class=\"subtitle is-6\">@johnsmith</p>\n      </div>\n    </div>\n\n    <div class=\"content\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit.      Phasellus nec iaculis mauris. <a>@bulmaio</a>\n.      <a href=\"#\">#css</a> <a href=\"#\">#responsive</a>\n      <br>\n      <time datetime=\"2016-1-1\">11:09 PM - 1 Jan 2016</time>\n    </div>\n  </div>\n</div>\n"
+        ],
+        "description": "Card component of bulma",
+        "prefix": "card:b"
+    },
+    "Card Footer Heade and Footer": {
+        "body": [
+            "<div class=\"card\">\n  <header class=\"card-header\">\n    <p class=\"card-header-title\">\n      Component    </p>\n    <a href=\"#\" class=\"card-header-icon\" aria-label=\"more options\">\n      <span class=\"icon\">\n        <i class=\"fas fa-angle-down\" aria-hidden=\"true\"></i>\n      </span>\n    </a>\n  </header>\n  <div class=\"card-content\">\n    <div class=\"content\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.      <a href=\"#\">@bulmaio</a>. <a href=\"#\">#css</a> <a href=\"#\">#responsive</a>\n      <br>\n      <time datetime=\"2016-1-1\">11:09 PM - 1 Jan 2016</time>\n    </div>\n  </div>\n  <footer class=\"card-footer\">\n    <a href=\"#\" class=\"card-footer-item\">Save</a>\n    <a href=\"#\" class=\"card-footer-item\">Edit</a>\n    <a href=\"#\" class=\"card-footer-item\">Delete</a>\n  </footer>\n</div>\n"
+        ],
+        "description": "Card with header and footer component",
+        "prefix": "card:b:full"
+    },
+    "Columns": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column\">\n    First column\n  </div>\n  <div class=\"column\">\n    Second column\n  </div>\n  <div class=\"column\">\n    Third column\n  </div>\n  <div class=\"column\">\n    Fourth column\n  </div>\n</div>"
+        ],
+        "description": "Columns basic of bulma",
+        "prefix": "columns:b"
+    },
+    "Columns Four Fifths": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column is-four-fifths\">is-four-fifths</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns Four Fifths",
+        "prefix": "columns:b:fourfifths"
+    },
+    "Columns Half": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column is-half\">is-half</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns Half",
+        "prefix": "columns:b:half"
+    },
+    "Columns Half Center": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column is-half is-offset-one-quarter\">\n</div>\n</div>"
+        ],
+        "description": "Columns Half Center",
+        "prefix": "columns:b:halfcenter"
+    },
+    "Columns Multiline": {
+        "body": [
+            "<div class=\"columns is-multiline is-mobile\">\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-half\">\n    <code>is-half</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column is-one-quarter\">\n    <code>is-one-quarter</code>\n  </div>\n  <div class=\"column\">\n    Auto\n  </div>\n</div>\n"
+        ],
+        "description": "Columns Miltiline",
+        "prefix": "columns:b:multiline"
+    },
+    "Columns One Fifth": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column is-one-fifth\">is-one-fifth</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns One Fifth",
+        "prefix": "columns:b:onefifth"
+    },
+    "Columns One Quarter": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column is-one-quarter\">is-one-quarter</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns One Quarter",
+        "prefix": "columns:b:onequarter"
+    },
+    "Columns One Third": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column is-one-third\">is-one-third</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns One Third",
+        "prefix": "columns:b:onethird"
+    },
+    "Columns Three Center": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column is-three-fifths is-offset-one-fifth\">\n</div>\n</div>"
+        ],
+        "description": "Columns Three Center",
+        "prefix": "columns:b:threecenter"
+    },
+    "Columns Three Fifths": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column is-three-fifths\">is-three-fifths</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns Three Fifths",
+        "prefix": "columns:b:threefifths"
+    },
+    "Columns Three Quarters": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column is-three-quarters\">is-three-quarters</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns basic of bulma",
+        "prefix": "columns:b:threequarters"
+    },
+    "Columns Two Fifths": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column is-two-fifths\">is-two-fifths</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns Two Fifths",
+        "prefix": "columns:b:twofifths"
+    },
+    "Columns Two Thirds": {
+        "body": [
+            "<div class=\"columns\">\n  <div class=\"column is-two-thirds\">is-two-thirds</div>\n  <div class=\"column\">Auto</div>\n  <div class=\"column\">Auto</div>\n</div>"
+        ],
+        "description": "Columns Two Thirds",
+        "prefix": "columns:b:twothirds"
+    },
+    "Container": {
+        "body": [
+            "<div class=\"container\">\n\n</div>"
+        ],
+        "description": "Container basic on bulma",
+        "prefix": "container:b"
+    },
+    "Container Fluid": {
+        "body": [
+            "<div class=\"container is-fluid\">\n\n</div>"
+        ],
+        "description": "Container fluid on bulma",
+        "prefix": "container:b:fluid"
+    },
+    "Container Full Width": {
+        "body": [
+            "<div class=\"container is-widescreen\">\n\n</div>"
+        ],
+        "description": "Container Full Widt on bulma",
+        "prefix": "container:b:wide"
+    },
+    "Container is-fullhd": {
+        "body": [
+            "<div class=\"container is-fullhd\">\n\n</div>"
+        ],
+        "description": "Container Full Widt on bulma",
+        "prefix": "container:b:fullhd"
+    },
+    "Content": {
+        "body": [
+            "<div class=\"content\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</div>"
+        ],
+        "Description": "Content Basic",
+        "prefix": "content:b"
+    },
+    "Content Large": {
+        "body": [
+            "<div class=\"content is-large\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</div>"
+        ],
+        "Description": "Content Large",
+        "prefix": "content:b:large"
+    },
+    "Content Medium": {
+        "body": [
+            "<div class=\"content is-medium\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</div>"
+        ],
+        "Description": "Content Medium",
+        "prefix": "content:b:medium"
+    },
+    "Content Small": {
+        "body": [
+            "<div class=\"content is-small\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</div>"
+        ],
+        "Description": "Content Small",
+        "prefix": "content:b:small"
+    },
+    "footer": {
+        "body": [
+            "<footer class=\"footer\">\n  <div class=\"content has-text-centered\">\n    <p>\n      <strong>Bulma</strong> by <a href=\"https://jgthms.com\">Jeremy Thomas</a>. The source code is licensed\n      <a href=\"http://opensource.org/licenses/mit-license.php\">MIT</a>. The website content\n      is licensed <a href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY NC SA 4.0</a>.\n    </p>\n  </div>\n</footer>"
+        ],
+        "description": "Basic footer in bulma",
+        "prefix": "footer:b"
+    },
+    "Form Checkbox": {
+        "body": [
+            "<label class=\"checkbox\">\n  <input type=\"checkbox\">\n  Remember me\n</label>"
+        ],
+        "description": "Form Checkbox",
+        "prefix": "checkbox:b"
+    },
+    "Form Dropdown": {
+        "body": [
+            "<div class=\"select\">\n  <select>\n    <option>Select dropdown</option>\n    <option>With options</option>\n  </select>\n</div>"
+        ],
+        "description": "Form Dropdown",
+        "prefix": "dropdown:b"
+    },
+    "Form file": {
+        "body": [
+            "<div class=\"file\">\n  <label class=\"file-label\">\n    <input class=\"file-input\" type=\"file\" name=\"resume\">\n    <span class=\"file-cta\">\n      <span class=\"file-icon\">\n        <i class=\"fas fa-upload\">\n</i>\n      </span>\n      <span class=\"file-label\">\n        Choose a file…\n      </span>\n    </span>\n  </label>\n</div>"
+        ],
+        "description": "Form File",
+        "prefix": "file:b"
+    },
+    "Form General": {
+        "body": [
+            "<div class=\"field\">\n  <label class=\"label\">\nName</label>\n  <div class=\"control\">\n    <input class=\"input\" type=\"text\" placeholder=\"Text input\">\n  </div>\n</div>\n\n<div class=\"field\">\n  <label class=\"label\">Username</label>\n  <div class=\"control has-icons-left has-icons-right\">\n    <input class=\"input is-success\" type=\"text\" placeholder=\"Text input\" value=\"bulma\">\n    <span class=\"icon is-small is-left\">\n      <i class=\"fas fa-user\"></i>\n    </span>\n    <span class=\"icon is-small is-right\">\n      <i class=\"fas fa-check\"></i>\n    </span>\n  </div>\n  <p class=\"help is-success\">This username is available</p>\n</div>\n\n<div class=\"field\">\n  <label class=\"label\">Email</label>\n  <div class=\"control has-icons-left has-icons-right\">\n    <input class=\"input is-danger\" type=\"email\" placeholder=\"Email input\" value=\"hello@\">\n    <span class=\"icon is-small is-left\">\n      <i class=\"fas fa-envelope\"></i>\n    </span>\n    <span class=\"icon is-small is-right\">\n      <i class=\"fas fa-exclamation-triangle\"></i>\n    </span>\n  </div>\n  <p class=\"help is-danger\">This email is invalid</p>\n</div>\n\n<div class=\"field\">\n  <label class=\"label\">Subject</label>\n  <div class=\"control\">\n    <div class=\"select\">\n      <select>\n        <option>Select dropdown</option>\n        <option>With options</option>\n      </select>\n    </div>\n  </div>\n</div>\n\n<div class=\"field\">\n  <label class=\"label\">Message</label>\n  <div class=\"control\">\n    <textarea class=\"textarea\" placeholder=\"Textarea\"></textarea>\n  </div>\n</div>\n\n<div class=\"field\">\n  <div class=\"control\">\n    <label class=\"checkbox\">\n      <input type=\"checkbox\">\n      I agree to the <a href=\"#\">terms and conditions</a>\n    </label>\n  </div>\n</div>\n\n<div class=\"field\">\n  <div class=\"control\">\n    <label class=\"radio\">\n      <input type=\"radio\" name=\"question\">\n      Yes\n    </label>\n    <label class=\"radio\">\n      <input type=\"radio\" name=\"question\">\n      No\n    </label>\n  </div>\n</div>\n\n<div class=\"field is-grouped\">\n  <div class=\"control\">\n    <button class=\"button is-link\">Submit</button>\n  </div>\n  <div class=\"control\">\n    <button class=\"button is-text\">Cancel</button>\n  </div>\n</div>\n"
+        ],
+        "description": "General form input",
+        "prefix": "form:b"
+    },
+    "Form Input": {
+        "body": [
+            "<input class=\"input\" type=\"text\" placeholder=\"Text input\">"
+        ],
+        "description": "Form Input",
+        "prefix": "input:b"
+    },
+    "Form Radio": {
+        "body": [
+            "<div class=\"control\">\n  <label class=\"radio\">\n    <input type=\"radio\" name=\"answer\">\n    Yes\n  </label>\n  <label class=\"radio\">\n    <input type=\"radio\" name=\"answer\">\n    No\n  </label>\n</div>\n"
+        ],
+        "description": "Form Radio",
+        "prefix": "radio:b"
+    },
+    "Form Textarea": {
+        "body": [
+            "<textarea class=\"textarea\" placeholder=\"e.g. Hello world\"></textarea>"
+        ],
+        "description": "Form Textarea",
+        "prefix": "textarea:b"
+    },
+    "Hero": {
+        "body": [
+            "<section class=\"hero\">\n  <div class=\"hero-body\">\n    <div class=\"container\">\n      <h1 class=\"title\">\n        Hero title\n      </h1>\n      <h2 class=\"subtitle\">\n        Hero subtitle\n      </h2>\n    </div>\n  </div>\n</section>"
+        ],
+        "description": "An imposing hero banner to showcase something",
+        "prefix": "hero:b"
+    },
+    "Hero Full Hight": {
+        "body": [
+            "<section class=\"hero is-success is-fullheight\">\n  <div class=\"hero-body\">\n    <div class=\"container\">\n      <h1 class=\"title\">\n        Fullheight title\n      </h1>\n      <h2 class=\"subtitle\">\n        Fullheight subtitle\n      </h2>\n    </div>\n  </div>\n</section>"
+        ],
+        "description": "Hero with full size of hight",
+        "prefix": "hero:b:full"
+    },
+    "Hero Large": {
+        "body": [
+            "<section class=\"hero is-info is-large\">\n  <div class=\"hero-body\">\n    <div class=\"container\">\n      <h1 class=\"title\">\n        Large title\n      </h1>\n      <h2 class=\"subtitle\">\n        Large subtitle\n      </h2>\n    </div>\n  </div>\n</section>"
+        ],
+        "description": "Hero with size of large",
+        "prefix": "hero:b:large"
+    },
+    "Hero Medium": {
+        "body": [
+            "<section class=\"hero is-primary is-medium\">\n  <div class=\"hero-body\">\n    <div class=\"container\">\n      <h1 class=\"title\">\n        Medium title\n      </h1>\n      <h2 class=\"subtitle\">\n        Medium subtitle\n      </h2>\n    </div>\n  </div>\n</section>"
+        ],
+        "description": "Hero with size of medium",
+        "prefix": "hero:b:medium"
+    },
+    "Hero with Navbar": {
+        "body": [
+            "<section class=\"hero is-info is-large\">\n  <div class=\"hero-head\">\n    <nav class=\"navbar\">\n      <div class=\"container\">\n        <div class=\"navbar-brand\">\n          <a class=\"navbar-item\">\n            <img src=\"https://bulma.io/images/bulma-type-white.png\" alt=\"Logo\">\n          </a>\n          <span class=\"navbar-burger burger\" data-target=\"navbarMenuHeroB\">\n            <span></span>\n            <span></span>\n            <span></span>\n          </span>\n        </div>\n        <div id=\"navbarMenuHeroB\" class=\"navbar-menu\">\n          <div class=\"navbar-end\">\n            <a class=\"navbar-item is-active\">\n              Home\n            </a>\n            <a class=\"navbar-item\">\n              Examples\n            </a>\n            <a class=\"navbar-item\">\n              Documentation\n            </a>\n            <span class=\"navbar-item\">\n              <a class=\"button is-info is-inverted\">\n                <span class=\"icon\">\n                  <i class=\"fab fa-github\"></i>\n                </span>\n                <span>Download</span>\n              </a>\n            </span>\n          </div>\n        </div>\n      </div>\n    </nav>\n  </div>\n\n  <div class=\"hero-body\">\n    <div class=\"container has-text-centered\">\n      <p class=\"title\">\n        Title\n      </p>\n      <p class=\"subtitle\">\n        Subtitle\n      </p>\n    </div>\n  </div>\n\n  <div class=\"hero-foot\">\n    <nav class=\"tabs is-boxed is-fullwidth\">\n      <div class=\"container\">\n        <ul>\n          <li class=\"is-active\">\n            <a>Overview</a>\n          </li>\n          <li>\n            <a>Modifiers</a>\n          </li>\n          <li>\n            <a>Grid</a>\n          </li>\n          <li>\n            <a>Elements</a>\n          </li>\n          <li>\n            <a>Components</a>\n          </li>\n          <li>\n            <a>Layout</a>\n          </li>\n        </ul>\n      </div>\n    </nav>\n  </div>\n</section>"
+        ],
+        "description": "Hero large with navbar on header and footer",
+        "prefix": "hero:b:nav"
+    },
+    "Icon": {
+        "body": [
+            "<span class=\"icon\">\n  <i class=\"fas fa-home\"></i>\n</span>"
+        ],
+        "description": "Basic of Icon",
+        "prefix": "icon:b"
+    },
+    "Image 1by1": {
+        "body": [
+            "<figure class=\"image is-1by1 is-480x480\">\n  <img src=\"https://bulma.io/images/placeholders/480x480.png\">\n</figure>"
+        ],
+        "description": "Image 1by1",
+        "prefix": "image:b:1by1"
+    },
+    "Image 2by1": {
+        "body": [
+            "<figure class=\"image is-2by1 is-640x320\">\n  <img src=\"https://bulma.io/images/placeholders/640x320.png\">\n</figure>"
+        ],
+        "description": "Image 2by1",
+        "prefix": "image:b:2by1"
+    },
+    "Image 3by1": {
+        "body": [
+            "<figure class=\"image is-3by1 is-720x240\">\n  <img src=\"https://bulma.io/images/placeholders/720x240.png\">\n</figure>"
+        ],
+        "description": "Image 3by1",
+        "prefix": "image:b:3by1"
+    },
+    "Image 3by2": {
+        "body": [
+            "<figure class=\"image is-3by2 is-480x320\">\n  <img src=\"https://bulma.io/images/placeholders/480x320.png\">\n</figure>"
+        ],
+        "description": "Image 3by2",
+        "prefix": "image:b:3by2"
+    },
+    "Image 4by3": {
+        "body": [
+            "<figure class=\"image is-4by3 is-640x480\">\n  <img src=\"https://bulma.io/images/placeholders/640x480.png\">\n</figure>"
+        ],
+        "description": "Image 4by3",
+        "prefix": "image:b:4by3"
+    },
+    "Image 4by5": {
+        "body": [
+            "<figure class=\"image is-4by5 is-480x600\">\n  <img src=\"https://bulma.io/images/placeholders/480x600.png\">\n</figure>"
+        ],
+        "description": "Image 4by5",
+        "prefix": "image:b:4by5"
+    },
+    "Image 5by3": {
+        "body": [
+            "<figure class=\"image is-5by3 is-800x480\">\n  <img src=\"https://bulma.io/images/placeholders/800x480.png\">\n</figure>"
+        ],
+        "description": "Image 5by3",
+        "prefix": "image:b:5by3"
+    },
+    "Image 5by4": {
+        "body": [
+            "<figure class=\"image is-5by4 is-600x480\">\n  <img src=\"https://bulma.io/images/placeholders/600x480.png\">\n</figure>"
+        ],
+        "description": "Image 5by4",
+        "prefix": "image:b:5by4"
+    },
+    "Image 16by9": {
+        "body": [
+            "<figure class=\"image is-16by9 is-640x360\">\n  <img src=\"https://bulma.io/images/placeholders/640x360.png\">\n</figure>"
+        ],
+        "description": "Image 16by9",
+        "prefix": "image:b:16by9"
+    },
+    "Image Square": {
+        "body": [
+            "<figure class=\"image is-square is-480x480\">\n  <img src=\"https://bulma.io/images/placeholders/480x480.png\">\n</figure>"
+        ],
+        "description": "Image square",
+        "prefix": "image:b:square"
+    },
+    "Navbar": {
+        "body": [
+            "<nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\">\n  <div class=\"navbar-brand\">\n    <a class=\"navbar-item\" href=\"https://bulma.io\">\n      <img src=\"https://bulma.io/images/bulma-logo.png\" width=\"112\" height=\"28\">\n    </a>\n\n    <a role=\"button\" class=\"navbar-burger burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">\n      <span aria-hidden=\"true\"></span>\n      <span aria-hidden=\"true\"></span>\n      <span aria-hidden=\"true\"></span>\n    </a>\n  </div>\n\n  <div id=\"navbarBasicExample\" class=\"navbar-menu\">\n    <div class=\"navbar-start\">\n      <a class=\"navbar-item\">\n        Home\n      </a>\n\n      <a class=\"navbar-item\">\n        Documentation\n      </a>\n\n      <div class=\"navbar-item has-dropdown is-hoverable\">\n        <a class=\"navbar-link\">\n          More\n        </a>\n\n        <div class=\"navbar-dropdown\">\n          <a class=\"navbar-item\">\n            About\n          </a>\n          <a class=\"navbar-item\">\n            Jobs\n          </a>\n          <a class=\"navbar-item\">\n            Contact\n          </a>\n          <hr class=\"navbar-divider\">\n          <a class=\"navbar-item\">\n            Report an issue\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"navbar-end\">\n      <div class=\"navbar-item\">\n        <div class=\"buttons\">\n          <a class=\"button is-primary\">\n            <strong>Sign up</strong>\n          </a>\n          <a class=\"button is-light\">\n            Log in\n          </a>\n        </div>\n      </div>\n    </div>\n  </div>\n</nav>"
+        ],
+        "description": "Basic navbar bulma",
+        "prefix": "navbar:b"
+    },
+    "Notification": {
+        "body": [
+            "<div class=\"notification\">\n  <button class=\"delete\"></button>\n  Lorem ipsum dolor sit amet, consectetur\n  adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Sit amet,\n  consectetur adipiscing elit\n</div>"
+        ],
+        "description": "Notification components",
+        "prefix": "notif:b"
+    },
+    "Pagination": {
+        "body": [
+            "<nav class=\"pagination\" role=\"navigation\" aria-label=\"pagination\">\n  <a class=\"pagination-previous\">Previous</a>\n  <a class=\"pagination-next\">Next page</a>\n  <ul class=\"pagination-list\">\n    <li>\n      <a class=\"pagination-link\" aria-label=\"Goto page 1\">1</a>\n    </li>\n    <li>\n      <span class=\"pagination-ellipsis\">&hellip;</span>\n    </li>\n    <li>\n      <a class=\"pagination-link\" aria-label=\"Goto page 45\">45</a>\n    </li>\n    <li>\n      <a class=\"pagination-link is-current\" aria-label=\"Page 46\" aria-current=\"page\">46</a>\n    </li>\n    <li>\n      <a class=\"pagination-link\" aria-label=\"Goto page 47\">47</a>\n    </li>\n    <li>\n      <span class=\"pagination-ellipsis\">&hellip;</span>\n    </li>\n    <li>\n      <a class=\"pagination-link\" aria-label=\"Goto page 86\">86</a>\n    </li>\n  </ul>\n</nav>\n"
+        ],
+        "description": "Basic of pagination",
+        "prefix": "pag:b"
+    },
+    "Pagination Center": {
+        "body": [
+            "<nav class=\"pagination is-centered\" role=\"navigation\" aria-label=\"pagination\">\n  <a class=\"pagination-previous\">Previous</a>\n  <a class=\"pagination-next\">Next page</a>\n  <ul class=\"pagination-list\">\n    <li><a class=\"pagination-link\" aria-label=\"Goto page 1\">1</a></li>\n    <li><span class=\"pagination-ellipsis\">&hellip;</span></li>\n    <li><a class=\"pagination-link\" aria-label=\"Goto page 45\">45</a></li>\n    <li><a class=\"pagination-link is-current\" aria-label=\"Page 46\" aria-current=\"page\">46</a></li>\n    <li><a class=\"pagination-link\" aria-label=\"Goto page 47\">47</a></li>\n    <li><span class=\"pagination-ellipsis\">&hellip;</span></li>\n    <li><a class=\"pagination-link\" aria-label=\"Goto page 86\">86</a></li>\n  </ul>\n</nav>\n"
+        ],
+        "descrtiption": "Pagination with number in center",
+        "prefix": "pag:b:center"
+    },
+    "Pagination Rounded": {
+        "body": [
+            "<nav class=\"pagination is-rounded\" role=\"navigation\" aria-label=\"pagination\">\n  <a class=\"pagination-previous\">Previous</a>\n  <a class=\"pagination-next\">Next page</a>\n  <ul class=\"pagination-list\">\n    <li><a class=\"pagination-link\" aria-label=\"Goto page 1\">1</a></li>\n    <li><span class=\"pagination-ellipsis\">&hellip;</span></li>\n    <li><a class=\"pagination-link\" aria-label=\"Goto page 45\">45</a></li>\n    <li><a class=\"pagination-link is-current\" aria-label=\"Page 46\" aria-current=\"page\">46</a></li>\n    <li><a class=\"pagination-link\" aria-label=\"Goto page 47\">47</a></li>\n    <li><span class=\"pagination-ellipsis\">&hellip;</span></li>\n    <li><a class=\"pagination-link\" aria-label=\"Goto page 86\">86</a></li>\n  </ul>\n</nav>"
+        ],
+        "descrtiption": "Pagination Rounded Style",
+        "prefix": "pag:b:rounded"
+    },
+    "Subtitle": {
+        "body": [
+            "<h2 class=\"subtitle\">Subtitle</h2>"
+        ],
+        "description": "Substile component of bulma",
+        "prefix": "subtitle:b"
+    },
+    "Table": {
+        "body": [
+            "<table class=\"table\">\n  <thead>\n    <tr>\n      <th><abbr title=\"Position\">Pos</abbr></th>\n      <th>Team</th>\n      <th><abbr title=\"Played\">Pld</abbr></th>\n      <th><abbr title=\"Won\">W</abbr></th>\n      <th>Qualification or relegation</th>\n    </tr>\n  </thead>\n  <tfoot>\n    <tr>\n      <th><abbr title=\"Position\">Pos</abbr></th>\n      <th>Team</th>\n      <th><abbr title=\"Played\">Pld</abbr></th>\n      <th><abbr title=\"Won\">W</abbr></th>\n      <th>Qualification or relegation</th>\n    </tr>\n  </tfoot>\n  <tbody>\n    <tr>\n      <th>1</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Leicester_City_F.C.\" title=\"Leicester City F.C.\">Leicester City</a> <strong>(C)</strong>\n      </td>\n      <td>38</td>\n            <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Arsenal_F.C.\" title=\"Arsenal F.C.\">Arsenal</a></td>\n      <td>38</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.\" title=\"Tottenham Hotspur F.C.\">Tottenham Hotspur</a></td>\n      <td>38</td>\n      <td>19</td>\n      <td>13</td>\n      <td>6</td>\n      <td>69</td>\n      <td>35</td>\n      <td>+34</td>\n      <td>70</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\n    </tr>\n    <tr class=\"is-selected\">\n      <th>4</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Manchester_City_F.C.\" title=\"Manchester City F.C.\">Manchester City</a></td>\n      <td>38</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Play-off_round\" title=\"2016–17 UEFA Champions League\">Champions League play-off round</a></td>\n    </tr>\n    <tr>\n      <th>5</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Manchester_United_F.C.\" title=\"Manchester United F.C.\">Manchester United</a></td>\n      <td>38</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League#Group_stage\" title=\"2016–17 UEFA Europa League\">Europa League group stage</a></td>\n    </tr>\n  </tbody>\n</table>\n"
+        ],
+        "Description": "Basic of table bulma",
+        "prefix": "table:b"
+    },
+    "Tag Basic": {
+        "body": [
+            "<span class=\"tag\">\n  Tag label\n</span>"
+        ],
+        "description": "Basic of tag bulma",
+        "prefix": "tag:b"
+    },
+    "Title": {
+        "body": [
+            "<h1 class=\"title\">Title</h1>"
+        ],
+        "description": "Title Component of bulma",
+        "prefix": "title:b"
+    }
+}
