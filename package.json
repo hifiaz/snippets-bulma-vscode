@@ -49,6 +49,10 @@
             {
                 "language": "typescriptreact",
                 "path": "./snippets/jsx.json"
+            },
+            {
+                "language": "erb",
+                "path": "./snippets/html.json"
             }
         ]
     }
